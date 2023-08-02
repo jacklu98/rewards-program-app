@@ -1,4 +1,4 @@
-const transactions = [ 
+export const transactions = [ 
     {
         transactionId: 'c13f6d1b-7ce4-4cbb-9259-413f2e77289d',
         customerId: 'T8R11E',
