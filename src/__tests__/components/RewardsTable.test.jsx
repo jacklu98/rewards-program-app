@@ -162,7 +162,6 @@ describe('should show total rewards', () => {
     });
     
     it('should render available rewards table following transactions', () => {
-        const timePeriod = ["April 2023", "March 2023", "February 2023"];
         const transactions = [
             {
                 transactionId: 'c13f6d1b-7ce4-4cbb-9259-413f2e77289d',
