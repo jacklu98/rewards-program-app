@@ -1,0 +1,54 @@
+.reward-app_total-rewards {
+    float: right;
+    margin: 0px 5vw 15px;
+    /* color: #134AE0; */
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+table {
+    width: 90vw;
+}
+
+tr {
+    height: 2em;
+}
+
+th {
+    background-color: #FFFFFF;
+}
+
+tr:nth-child(odd) td {
+    background-color: #D3D3D3;
+}
+
+tr:nth-child(even) td {
+    background-color: #FFFFFF;
+}
+
+table, th, td {
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.customer-id {
+    width: 17%
+}
+
+.transaction-id {
+    width: 35%;
+}
+
+.purchase-time {
+    width: 20%;
+}
+
+.purchase-money {
+    width: 15%;
+}
+
+.reward {
+    width: 12%;
+}

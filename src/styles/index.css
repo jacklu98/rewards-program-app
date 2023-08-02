@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #EDF4FF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.reward-app {
+  text-align: center;
+}
+
+.reward-app_title {
+  background-color: #1E6FFF;
+  color: #FFFFFF;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 40px;
+}
+

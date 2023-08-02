@@ -1,0 +1,25 @@
+.reward-app_search {
+    margin: 10px auto;
+    /* width: 1100px; */
+    /* border-radius: 40px; */
+    padding-top: 10px;
+    /* border: 10px solid #18A6EB; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.reward-app_search_label {
+    margin: auto;
+    width: 208px;
+    padding-right: 10px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.reward-app_search_search-bar {
+    width: 130px;
+    height: 20px;
+    margin: 5px 0;
+    padding: 1px 2px;
+}
+
