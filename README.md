@@ -1,6 +1,6 @@
 # Reward Program App 
 
-View the web app: [https://reward-program-jack.netlify.app/](https://reward-program-jack.netlify.app/)
+View the web app: [https://rewards-program-app.netlify.app/](https://rewards-program-app.netlify.app/)
 
 ## Introduction:
 
