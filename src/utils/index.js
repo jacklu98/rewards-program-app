@@ -8,20 +8,18 @@ export function calculateTotalRewards(transactions) {
     return totalRewards;
 }
 
-export function calculateReward(transaction) {
-    let pay = transaction.purchaseMoney;
-    let value = 0;
+export function calculateReward(amount) {
+    let reward = 0;
     // Calculate over 100 part rewards
-    if(pay > 100) {
-        value += (pay - 100) * 2;
-        pay = 100;
+    if(amount > 100) {
+        reward += (amount - 100) * 2;
+        amount = 100;
     }
     // calculate 50 - 100 part rewards
-    if(pay > 50) {
-        value += (pay - 50);
+    if(amount > 50) {
+        reward += (amount - 50);
     }
-    transaction["reward"] = value;
-    return transaction;
+    return reward
 }
 
 const monthMap = [
@@ -42,8 +40,7 @@ const monthMap = [
 export function findTimePeriod(transactions) {
     const months = new Set();
     transactions.forEach(transaction => {
-        const time = transaction.purchaseTime.split(' ');
-        const month = time[1] + " " + time[2];
+        const month = getMonthFromDate(transaction.purchaseTime);
         if (!months.has(month)) {
             months.add(month)
         }
@@ -52,14 +49,13 @@ export function findTimePeriod(transactions) {
 }
 
 export function getPurchaseDate(purchaseTime) {
-    const time = purchaseTime.split(' ');
-    const date = time[0] + " " + time[1] + " " + time[2];
-    return date;
+    const time = new Date(purchaseTime);
+    return time.getDate() + " " + monthMap[time.getMonth()] + " " + time.getFullYear();
 }
 
 export function getMonthFromDate(purchaseTime) {
-    const time = purchaseTime.split(' ');
-    const month = time[1] + " " + time[2];
+    const time = new Date(purchaseTime);
+    const month = monthMap[time.getMonth()] + " " + time.getFullYear();
     return month;
 }
 

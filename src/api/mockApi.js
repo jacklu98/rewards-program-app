@@ -4,7 +4,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '29 April 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 59,
+        payment: 59,
         currency: '$',
         purchaseItems: ['Crab Cake', 'Fried Chicken', 'Pizza']
     }, 
@@ -13,7 +13,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '24 April 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 49,
+        payment: 49,
         currency: '$',
         purchaseItems: ['Cooking tool', 'Vinegar', 'Olive Oil']
     }, 
@@ -22,7 +22,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '20 April 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 9,
+        payment: 9,
         currency: '$',
         purchaseItems: ['Hot Pot', 'Beef', 'Shrimp']
     }, 
@@ -31,7 +31,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '11 April 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 1002,
+        payment: 1002,
         currency: '$',
         purchaseItems: ['Chairs', 'Television', 'Table']
     },
@@ -40,7 +40,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '10 April 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 31,
+        payment: 31,
         currency: '$',
         purchaseItems: ['Coke Cola', 'Green Grape', 'Rice Roll']
     },   
@@ -49,7 +49,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '20 March 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 57,
+        payment: 57,
         currency: '$',
         purchaseItems: ['Towel Paper', 'Toilet Paper', 'BBQ Wings']
     }, 
@@ -58,7 +58,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '11 March 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 429,
+        payment: 429,
         currency: '$',
         purchaseItems: ['Video Game', 'PS5']
     }, 
@@ -67,7 +67,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '10 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 39,
+        payment: 39,
         currency: '$',
         purchaseItems: ['Lysol Wipe', 'Watermelon', 'Soy Sauce']
     },
@@ -76,7 +76,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '08 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 95,
+        payment: 95,
         currency: '$',
         purchaseItems: ['Lamb', 'Beer', 'Wine', 'Whisky']
     },
@@ -85,7 +85,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '01 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 33,
+        payment: 33,
         currency: '$',
         purchaseItems: ['Gala Apple', 'Pepsi', 'Instant Rice']
     },
@@ -94,7 +94,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '20 February 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 34,
+        payment: 34,
         currency: '$',
         purchaseItems: ['Lysol Wipe', 'Pizza', 'Pasta']
     },
@@ -103,7 +103,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '11 February 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 205,
+        payment: 205,
         currency: '$',
         purchaseItems: ['Classic CD', 'Green Apple', 'King Crab']
     }, 
@@ -112,7 +112,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '10 February 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 178,
+        payment: 178,
         currency: '$',
         purchaseItems: ['Gift Card', 'Red Grape', 'Instant Noodle']
     }, 
@@ -121,7 +121,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '07 February 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 18,
+        payment: 18,
         currency: '$',
         purchaseItems: ['Lemon', 'Green Grape']
     }, 
@@ -130,7 +130,7 @@ const transactions = [
         customerId: 'T8R11E',
         customerName: 'Timmy Blue',
         purchaseTime: '03 February 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 95,
+        payment: 95,
         currency: '$',
         purchaseItems: ['Cake', 'White Wine', 'Steak']
     }, 
@@ -139,7 +139,7 @@ const transactions = [
         customerId: 'A2BS4F',
         customerName: 'Terry Young',
         purchaseTime: '27 February 2023 13:15:30 UTC-05:00',
-        purchaseMoney: 235,
+        payment: 235,
         currency: '$',
         purchaseItems: ['Toothbrush', 'Red Apple', 'Table']
     },
@@ -148,7 +148,7 @@ const transactions = [
         customerId: 'A2BS4F',
         customerName: 'Terry Young',
         purchaseTime: '20 February 2023 13:15:30 UTC-05:00',
-        purchaseMoney: 167,
+        payment: 167,
         currency: '$',
         purchaseItems: ['Glass Bottle', 'Filter', 'Chair']
     },
@@ -157,7 +157,7 @@ const transactions = [
         customerId: 'A2BS4F',
         customerName: 'Terry Young',
         purchaseTime: '13 February 2023 13:15:30 UTC-05:00',
-        purchaseMoney: 25,
+        payment: 25,
         currency: '$',
         purchaseItems: ['Lysol Wipe', 'Instant Noodle']
     },
@@ -166,7 +166,7 @@ const transactions = [
         customerId: 'A2BS4F',
         customerName: 'Terry Young',
         purchaseTime: '1 February 2023 03:15:30 UTC-05:00',
-        purchaseMoney: 125,
+        payment: 125,
         currency: '$',
         purchaseItems: ['Gift Box', 'Fruit Box', 'Wine Box']
     }, 
@@ -175,7 +175,7 @@ const transactions = [
         customerId: 'A2BS4F',
         customerName: 'Terry Young',
         purchaseTime: '1 February 2023 09:15:30 UTC-05:00',
-        purchaseMoney: 49,
+        payment: 49,
         currency: '$',
         purchaseItems: ['Bath Tissue', 'Lime', 'Glass Bottle']
     },  
@@ -184,7 +184,7 @@ const transactions = [
         customerId: 'A2BS4F',
         customerName: 'Terry Young',
         purchaseTime: '21 March 2023 13:15:30 UTC-05:00',
-        purchaseMoney: 89,
+        payment: 89,
         currency: '$',
         purchaseItems: ['Red Wine', 'Steak', 'Butter', 'Pepper']
     }, 
@@ -193,7 +193,7 @@ const transactions = [
         customerId: 'A2BS4F',
         customerName: 'Terry Young',
         purchaseTime: '19 March 2023 15:15:30 UTC-05:00',
-        purchaseMoney: 100,
+        payment: 100,
         currency: '$',
         purchaseItems: ['Toy Car', 'Shirt', 'Cap']
     }, 
@@ -202,7 +202,7 @@ const transactions = [
         customerId: 'A2BS4F',
         customerName: 'Terry Young',
         purchaseTime: '1 March 2023 23:15:30 UTC-05:00',
-        purchaseMoney: 85,
+        payment: 85,
         currency: '$',
         purchaseItems: ['Lego', 'Hot seller', 'Chocolate Box']
     }, 
@@ -211,7 +211,7 @@ const transactions = [
         customerId: 'A2BS4F',
         customerName: 'Terry Young',
         purchaseTime: '10 April 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 150,
+        payment: 150,
         currency: '$',
         purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle']
     }, 
@@ -220,7 +220,7 @@ const transactions = [
         customerId: 'CB1S11',
         customerName: 'Mike Lauren',
         purchaseTime: '20 April 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 1,
+        payment: 1,
         currency: '$',
         purchaseItems: ['Sales']
     }, 
@@ -229,7 +229,7 @@ const transactions = [
         customerId: 'CB1S11',
         customerName: 'Mike Lauren',
         purchaseTime: '11 April 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 102,
+        payment: 102,
         currency: '$',
         purchaseItems: ['Lyft Card', 'Green Apple', 'Instant Noodle']
     }, 
@@ -238,7 +238,7 @@ const transactions = [
         customerId: 'CB1S11',
         customerName: 'Mike Lauren',
         purchaseTime: '10 April 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 331,
+        payment: 331,
         currency: '$',
         purchaseItems: ['XBOX', 'Video Game']
     }, 
@@ -247,7 +247,7 @@ const transactions = [
         customerId: 'CB1S11',
         customerName: 'Mike Lauren',
         purchaseTime: '20 March 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 50,
+        payment: 50,
         currency: '$',
         purchaseItems: ['UberEats Gift Card']
     }, 
@@ -256,7 +256,7 @@ const transactions = [
         customerId: 'CB1S11',
         customerName: 'Mike Lauren',
         purchaseTime: '11 March 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 49,
+        payment: 49,
         currency: '$',
         purchaseItems: ['Fillet', 'Beer', 'Instant Noodle']
     }, 
@@ -265,7 +265,7 @@ const transactions = [
         customerId: 'CB1S11',
         customerName: 'Mike Lauren',
         purchaseTime: '10 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 99,
+        payment: 99,
         currency: '$',
         purchaseItems: ['Lamb', 'Onion', 'Pepper']
     }, 
@@ -274,7 +274,7 @@ const transactions = [
         customerId: 'CB1S11',
         customerName: 'Mike Lauren',
         purchaseTime: '20 February 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 134,
+        payment: 134,
         currency: '$',
         purchaseItems: ['Lego', 'Pepsi Box']
     }, 
@@ -283,7 +283,7 @@ const transactions = [
         customerId: 'CB1S11',
         customerName: 'Mike Lauren',
         purchaseTime: '11 February 2023 14:15:30 UTC-05:00',
-        purchaseMoney: 25,
+        payment: 25,
         currency: '$',
         purchaseItems: ['Green apple', 'Instant Noodle']
     }, 
@@ -292,7 +292,7 @@ const transactions = [
         customerId: 'CB1S11',
         customerName: 'Mike Lauren',
         purchaseTime: '10 February 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 78,
+        payment: 78,
         currency: '$',
         purchaseItems: ['Toy Car', 'Green Grape', 'Pasta']
     }, 
@@ -301,7 +301,7 @@ const transactions = [
         customerId: 'T8JF91',
         customerName: 'Andy Kehr',
         purchaseTime: '23 April 2023 11:25:30 UTC-05:00',
-        purchaseMoney: 79,
+        payment: 79,
         currency: '$',
         purchaseItems: ['Lyft Card', 'Corn', 'Instant Noodle']
     }, 
@@ -310,7 +310,7 @@ const transactions = [
         customerId: 'T8JF91',
         customerName: 'Andy Kehr',
         purchaseTime: '16 April 2023 16:35:23 UTC-05:00',
-        purchaseMoney: 68,
+        payment: 68,
         currency: '$',
         purchaseItems: ['Beef', 'Blueberry', 'Salad']
     }, 
@@ -319,7 +319,7 @@ const transactions = [
         customerId: 'T8JF91',
         customerName: 'Andy Kehr',
         purchaseTime: '07 April 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 41,
+        payment: 41,
         currency: '$',
         purchaseItems: ['Wash Clean', 'Red Pepper', 'Wings']
     }, 
@@ -328,7 +328,7 @@ const transactions = [
         customerId: 'T8JF91',
         customerName: 'Andy Kehr',
         purchaseTime: '18 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 82,
+        payment: 82,
         currency: '$',
         purchaseItems: ['Lysol Wipe', 'Sparkling', 'Lime']
     }, 
@@ -337,7 +337,7 @@ const transactions = [
         customerId: 'T8JF91',
         customerName: 'Andy Kehr',
         purchaseTime: '12 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 101,
+        payment: 101,
         currency: '$',
         purchaseItems: ['Lego', 'Green Grape', 'Pineapple']
     }, 
@@ -346,7 +346,7 @@ const transactions = [
         customerId: 'T8JF91',
         customerName: 'Andy Kehr',
         purchaseTime: '04 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 54,
+        payment: 54,
         currency: '$',
         purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle']
     }, 
@@ -355,7 +355,7 @@ const transactions = [
         customerId: 'T367KB',
         customerName: 'Jimmy Cole',
         purchaseTime: '23 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 64,
+        payment: 64,
         currency: '$',
         purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle']
     }, 
@@ -364,7 +364,7 @@ const transactions = [
         customerId: 'T367KB',
         customerName: 'Jimmy Cole',
         purchaseTime: '17 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 98,
+        payment: 98,
         currency: '$',
         purchaseItems: ['Steak', 'Orange', 'Instant Noodle']
     },     
@@ -373,7 +373,7 @@ const transactions = [
         customerId: 'T367KB',
         customerName: 'Jimmy Cole',
         purchaseTime: '13 March 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 47,
+        payment: 47,
         currency: '$',
         purchaseItems: ['Coca Cola', 'Red Grape', 'Instant Noodle']
     },     
@@ -382,7 +382,7 @@ const transactions = [
         customerId: 'T367KB',
         customerName: 'Jimmy Cole',
         purchaseTime: '23 February 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 73,
+        payment: 73,
         currency: '$',
         purchaseItems: ['Luggage', 'Travel Box']
     }, 
@@ -391,7 +391,7 @@ const transactions = [
         customerId: 'CBUT4A',
         customerName: 'Silver Whiteside',
         purchaseTime: '25 April 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 119,
+        payment: 119,
         currency: '$',
         purchaseItems: ['Lego', 'Green Apple']
     }, 
@@ -400,7 +400,7 @@ const transactions = [
         customerId: 'CBUT4A',
         customerName: 'Silver Whiteside',
         purchaseTime: '19 April 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 108,
+        payment: 108,
         currency: '$',
         purchaseItems: ['Car Box']
     }, 
@@ -409,7 +409,7 @@ const transactions = [
         customerId: 'CBUT4A',
         customerName: 'Silver Whiteside',
         purchaseTime: '11 April 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 54,
+        payment: 54,
         currency: '$',
         purchaseItems: ['Gas']
     },
@@ -418,7 +418,7 @@ const transactions = [
         customerId: 'CBUT4A',
         customerName: 'Silver Whiteside',
         purchaseTime: '04 April 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 40,
+        payment: 40,
         currency: '$',
         purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle']
     },   
@@ -427,7 +427,7 @@ const transactions = [
         customerId: 'CBUT4A',
         customerName: 'Silver Whiteside',
         purchaseTime: '24 February 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 38,
+        payment: 38,
         currency: '$',
         purchaseItems: ['Lysol', 'Pineapple', 'Instant Mac']
     },
@@ -436,7 +436,7 @@ const transactions = [
         customerId: 'CBUT4A',
         customerName: 'Silver Whiteside',
         purchaseTime: '11 February 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 108,
+        payment: 108,
         currency: '$',
         purchaseItems: ['Glasses']
     },  
@@ -445,7 +445,7 @@ const transactions = [
         customerId: 'CBUT4A',
         customerName: 'Silver Whiteside',
         purchaseTime: '07 February 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 8,
+        payment: 8,
         currency: '$',
         purchaseItems: ['Orange Juice', 'Ice cream']
     }, 
@@ -454,7 +454,7 @@ const transactions = [
         customerId: 'CBUT4A',
         customerName: 'Silver Whiteside',
         purchaseTime: '04 February 2023 14:25:30 UTC-05:00',
-        purchaseMoney: 80,
+        payment: 80,
         currency: '$',
         purchaseItems: ['Lobster', 'Crab', 'White Wine']
     }, 
@@ -462,6 +462,6 @@ const transactions = [
 
 export function getAllTransactions() {
     return new Promise((resolve, reject) => {
-        resolve(transactions);
+        setTimeout(() => resolve(transactions), 1000);     
     })
 }
