@@ -28,7 +28,7 @@ export default function RewardsTable({transactions}) {
                                     <td className="customer-id">{transaction.customerId}</td>
                                     <td className="transaction-id">{transaction.transactionId}</td>
                                     <td className="purchase-time">{getPurchaseDate(transaction.purchaseTime)}</td>
-                                    <td className="purchase-money">{transaction.currency + transaction.purchaseMoney}</td>
+                                    <td className="purchase-money">{transaction.currency + transaction.payment}</td>
                                     <td className="reward">{transaction.reward}</td>
                                 </tr>
                             )

@@ -16,7 +16,7 @@ After selecting information, the page will show customer's total rewards during 
 
 Then in the below table, there are records of transaction containing Customer ID, Transaction ID, Purchase Time, Purchase Money and this transaction Reward. 
 
-## Available Scripts
+## Available Scripts (recommend node version: 16+)
 
 ### `npm install`
 

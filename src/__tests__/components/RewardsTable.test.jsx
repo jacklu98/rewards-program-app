@@ -10,7 +10,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '29 April 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 59,
+                payment: 59,
                 currency: '$',
                 purchaseItems: ['Crab Cake', 'Fried Chicken', 'Pizza'],
                 reward: 9,
@@ -20,7 +20,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '10 April 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 31,
+                payment: 31,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 0
@@ -30,7 +30,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '24 April 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 49,
+                payment: 49,
                 currency: '$',
                 purchaseItems: ['Cooking tool', 'Vinegar', 'Olive Oil'],
                 reward: 0
@@ -40,7 +40,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '11 April 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 1002,
+                payment: 1002,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 1854
@@ -50,7 +50,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '20 April 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 9,
+                payment: 9,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 0
@@ -60,7 +60,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '10 March 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 39,
+                payment: 39,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 0
@@ -70,7 +70,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '11 March 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 429,
+                payment: 429,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 708
@@ -80,7 +80,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '20 March 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 57,
+                payment: 57,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 7
@@ -90,7 +90,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '08 March 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 95,
+                payment: 95,
                 currency: '$',
                 purchaseItems: ['Lamb', 'Beer', 'Wine', 'Whisky'],
                 reward: 45
@@ -100,7 +100,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '01 March 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 33,
+                payment: 33,
                 currency: '$',
                 purchaseItems: ['Gala Apple', 'Pepsi', 'Instant Rice'],
                 reward: 0
@@ -110,7 +110,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '10 February 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 178,
+                payment: 178,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 206
@@ -120,7 +120,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '11 February 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 205,
+                payment: 205,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 260
@@ -130,7 +130,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '20 February 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 34,
+                payment: 34,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 0
@@ -140,7 +140,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '07 February 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 18,
+                payment: 18,
                 currency: '$',
                 purchaseItems: ['Lemon', 'Green Grape'],
                 reward: 0
@@ -150,7 +150,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '03 February 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 95,
+                payment: 95,
                 currency: '$',
                 purchaseItems: ['Cake', 'White Wine', 'Steak'],
                 reward: 45
@@ -169,7 +169,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '29 April 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 59,
+                payment: 59,
                 currency: '$',
                 purchaseItems: ['Crab Cake', 'Fried Chicken', 'Pizza'],
                 reward: 9,
@@ -179,7 +179,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '10 April 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 31,
+                payment: 31,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 0
@@ -189,7 +189,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '24 April 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 49,
+                payment: 49,
                 currency: '$',
                 purchaseItems: ['Cooking tool', 'Vinegar', 'Olive Oil'],
                 reward: 0
@@ -199,7 +199,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '11 April 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 1002,
+                payment: 1002,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 1854
@@ -209,7 +209,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '20 April 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 9,
+                payment: 9,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 0
@@ -219,7 +219,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '10 March 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 39,
+                payment: 39,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 0
@@ -229,7 +229,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '11 March 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 429,
+                payment: 429,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 708
@@ -239,7 +239,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '20 March 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 57,
+                payment: 57,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 7
@@ -249,7 +249,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '08 March 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 95,
+                payment: 95,
                 currency: '$',
                 purchaseItems: ['Lamb', 'Beer', 'Wine', 'Whisky'],
                 reward: 45
@@ -259,7 +259,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '01 March 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 33,
+                payment: 33,
                 currency: '$',
                 purchaseItems: ['Gala Apple', 'Pepsi', 'Instant Rice'],
                 reward: 0
@@ -269,7 +269,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '10 February 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 178,
+                payment: 178,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 206
@@ -279,7 +279,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '11 February 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 205,
+                payment: 205,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 260
@@ -289,7 +289,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '20 February 2023 14:15:30 UTC-05:00',
-                purchaseMoney: 34,
+                payment: 34,
                 currency: '$',
                 purchaseItems: ['Lysol Wipe', 'Green Grape', 'Instant Noodle'],
                 reward: 0
@@ -299,7 +299,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '07 February 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 18,
+                payment: 18,
                 currency: '$',
                 purchaseItems: ['Lemon', 'Green Grape'],
                 reward: 0
@@ -309,7 +309,7 @@ describe('should show total rewards', () => {
                 customerId: 'T8R11E',
                 customerName: 'Timmy Blue',
                 purchaseTime: '03 February 2023 14:25:30 UTC-05:00',
-                purchaseMoney: 95,
+                payment: 95,
                 currency: '$',
                 purchaseItems: ['Cake', 'White Wine', 'Steak'],
                 reward: 45

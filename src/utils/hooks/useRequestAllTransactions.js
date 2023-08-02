@@ -1,40 +1,41 @@
 import { useEffect, useState } from "react";
-import { getAllTransactions } from "../../api/mockApi";
 import { calculateReward, findTimePeriod } from "../index";
 
-export default function useRequestAllTransactions() {
+export default function useRequestAllTransactions(fetcher) {
     const [transactions, setTransactions] = useState([]);
     const [customers, setCustomers] = useState([]);
     const [timePeriod, setTimePeriod] = useState([]);
-    const [isLoading, setIsLoading] = useState(null);
+    const [isLoading, setIsLoading] = useState(false);
+    const [errorMsg, setErrorMsg] = useState(null);
 
     useEffect(() => {
         setIsLoading(true);
-        getAllTransactions()
+        fetcher()
             .then(data => {
                 // find the month of reward time period
                 const months = findTimePeriod(data);
 
-                // split transactions to every customer
+                // find unique customer ID
                 const records = new Set();
                 data.forEach(element => {
                     if (!records.has(element.customerId)) {
                         records.add(element.customerId)
                     }
                     // calculate reward for every transaction
-                    element = calculateReward(element);
+                    const elementReward = calculateReward(element.payment);
+                    element["reward"] = elementReward;
                 });
-                setIsLoading(false);
                 setTransactions(data);
-                console.log(data);
                 setCustomers([...records.keys()]);
                 setTimePeriod(months);
             })
             .catch(err => {
+                setErrorMsg(err);
+            })
+            .finally(() => {
                 setIsLoading(false);
-                console.log(err)
             });
-    }, [])
+    }, [fetcher])
 
-    return [transactions, customers, timePeriod, isLoading];
+    return [transactions, customers, timePeriod, isLoading, errorMsg];
 }
